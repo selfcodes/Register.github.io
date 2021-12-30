@@ -12,8 +12,9 @@
 <body>
     <h1 class="head">Register Form</h1>
     <div class="box">
-        <h3 class="title">Name:</h3>
-        <input type="text" class="ibox"
+        <form action="connect.php" method="post">
+        <h3 class="title">Full Name:</h3>
+        <input type="text" class="ibox" name="fullname"
         placeholder="Enter Name">
         <br><br>
         <h3 class="title">Date Of Birth:</h3>
@@ -31,6 +32,7 @@
         <button type="submit" class="btn">Submit</button>
         <br><br><br>
         <marquee class="title">Design By Gulzar</marquee>
+        </form>
     </div>
     <script src="script.js"></script>
 </body>
