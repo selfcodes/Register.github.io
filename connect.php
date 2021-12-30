@@ -5,7 +5,7 @@ $email = $_POST['email'];
 $password = $_POST['password'];
 
 // Database
-$conn = new mysqli('https://coding4-everyone.github.io','root','','Register.github.io');
+$conn = new mysqli('https://coding4-everyone.github.io','root','','/Register.github.io');
 if($conn->connect_error) {
     die('Connection Failed : '.$conn->connect_error);
 }
