@@ -1,0 +1,49 @@
+* {
+    background: #f2f2f2;
+ padding: 3px;
+}
+.head {
+    text-align: center;
+    border: 4px black solid;
+    border-radius: 0 20px 0 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: red;
+    border-bottom-color: rgb(27, 49, 247);
+    padding: 3px;
+}
+.box {
+    height: auto;
+    width: auto;
+    background-color: #ffffff;
+    border: none;
+    padding: 7px;
+    border-radius: 25px;
+    text-align: center;
+}
+.title {
+    background-color: #ffffff;
+}
+.ibox {
+    border: none;
+    padding: 2px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    height: 25px;
+}
+.idate {
+    border-radius: 10px;
+
+}
+.btn {
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    background-color: deepskyblue;
+    padding: 3px;
+    width: 65px;
+    color: black;
+
+
+}
